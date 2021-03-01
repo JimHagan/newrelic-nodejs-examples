@@ -1,6 +1,6 @@
 var process_name = 'nr-chart-generator'
 var process_version = '1.0'
-var nerdgraph_api_key = 'NRAK-8N8GM91CORR5UKODJ6UD0F3CY3W' //process.env.NERDGRAPH_API_KEY
+var nerdgraph_api_key = process.env.NERDGRAPH_API_KEY
 var account_id = process.env.ACCOUNT_ID
 
 var request = require('request');
