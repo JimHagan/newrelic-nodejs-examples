@@ -17,9 +17,11 @@ These scripts are intended to give you a good example performing the following u
 
 You will have to set the following environment variables
 
-*QUERY_KEY* REST API Query Key
-*ACCOUNT_ID* NR Account ID
-*NERDGRAPH_API_KEY* New Relic Graphql(Nerdgraph) API Key
+- *QUERY_KEY* REST API Query Key
+
+- *ACCOUNT_ID* NR Account ID
+
+- *NERDGRAPH_API_KEY* New Relic Graphql(Nerdgraph) API Key
 
 You may also have to install some dependencies for example `request`
 
