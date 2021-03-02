@@ -11,9 +11,10 @@ These scripts are intended to give you a good example performing the following u
 
 - *nrql_api_request.js* Gets raw JSON response from NRQL query
 - *nr_chart_generator.js* Creates and downloads a chart for a given NRQL query
+- *nr_send_chart.js* Send email with image attachment using mailgun API
 
 
-## Prerequisites
+## Main Prerequisites
 
 You will have to set the following environment variables
 
@@ -26,3 +27,14 @@ You will have to set the following environment variables
 You may also have to install some dependencies for example `request`
 
 Use the command `npm install request`
+
+## If you are using nr_send_chart
+
+- You will need to create or have a mailgun account enabled
+- You'll need to make sure that your destination emails are allowed to receive emails from mailgun
+- Install the mailgun node library with command `npm install mailgun-js`
+- Set the following enviroment variables:
+    + *MAILGUN_API_KEY*
+    + *MAILGUN_API_DOMAIN*
+    + *EMAIL_DESTINATION*
+
